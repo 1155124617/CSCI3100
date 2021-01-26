@@ -82,10 +82,16 @@ table {
 
 .loginmain ul li input[type="button"]{
     width: 80px;
-    height: 30px;
+    height: 34px;
     border: none;
     background:rgb(12, 40, 92);
     color: white;
     font-size: 14px;
     margin-left: 130px;
+    cursor: pointer;
+}
+
+.loginmain span#text{
+    display: inline-block;
+    width: 130px;
 }

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script src="game.js"></script>
+    <div>
+        <canvas id="headimg" width="400" height="400"></canvas>
+        <script>
+            var headimg = document.getElementById("headimg");
+            var context = headimg.getContext('2d');
+            var imgobj = new Image();
+            imgobj.onload = function () {
+                context.drawImage(imgobj, 0, 0);
+            }
+            imgobj.src = 'student.jpeg';
+        </script>
+    </div>
+    <h1>Canvas Test</h1>
+    <ul>
+        <li id="hp">HP</li>
+        <li id="mp">MP</li>
+    </ul>
+    <div>
+        <canvas id="myCanvas" width="200" height="200"></canvas>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var cxt = c.getContext("2d");
+            cxt.fillStyle = "black";
+            cxt.fillRect(0, 0, 200, 200);
+        </script>
+    </div>
+    <button type="button" id="hurt" onclick="hurtClick()">hurt!</button>
+</body>
+</html>

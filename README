@@ -1,2 +1,6 @@
-This is a readme file to test whether github works well!
-This version is distributed by Sky under Sky branch!
+mysql schema:
+  user(username varchar(20) not null, password varchar(20) not null, primary key(username));
+  admin(username varchar(20) not null, password varchar(20) not null, primary key(username));
+finished:
+  user reg/login
+  admin CUD user account

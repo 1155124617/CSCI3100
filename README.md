@@ -61,6 +61,7 @@ filetree 3100_proj
 ├── sign_in
 ├── sign_up
 ├── admin
+├── main_page
 ├── server.js
 ├── node_modules
 ├── package-lock.json

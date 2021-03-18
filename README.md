@@ -34,12 +34,30 @@ Make sure that you have Google Chrome, MySQL, and NodeJS installed in your envir
 ## System Intro & Demo
 
 Please first clone the repo
-
 ```sh
 git clone https://github.com/1155124617/CSCI3100.git
 ```
-There are mainly .. directories:
 
+File Tree:
+
+filetree CSCI3100
+├── GroupA5 Project Initial Design Report.docx
+├── 3100_proj.zip
+└── README.md
+
+Please unzip the .zip file 3100_proj.zip
+```sh
+unzip 3100_proj.zip
+```
+filetree 3100_proj
+├── sign_in
+├── sign_up
+├── admin
+├── server.js
+├── main_page
+├── node_modules
+├── package-lock.json
+└── package.json
 
 
 ### User Reg & Login System

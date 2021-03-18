@@ -20,15 +20,14 @@ Make sure that you have Google Chrome, MySQL, and NodeJS installed in your envir
 
 * NodeJS Download: https://nodejs.org/zh-cn/download/
 * MySQL Download: https://www.mysql.com/cn/downloads/
-   * MySQL Configuration:
-      ** host: localhost
-      ** user: root
-      ** password: yy990525
-      ** database: CSCI3100
-      
-   * Database Table Schema:
-      ** user(username varchar(20) not null, password varchar(20) not null, primary key(username));
-      ** admin(username varchar(20) not null, password varchar(20) not null, primary key(username));
+* MySQL Configuration:
+  * host: localhost
+  * user: root
+  * password: yy990525
+  * database: CSCI3100
+  * Database Table Schema:
+      user(username varchar(20) not null, password varchar(20) not null, primary key(username));
+      admin(username varchar(20) not null, password varchar(20) not null, primary key(username));
 
 
 ## System Intro & Demo

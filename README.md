@@ -11,8 +11,8 @@ We have used front-end interaction and storage of user data. The user can succes
 In the game interface, we have realized the operation logic of the game, mainly completed the front-end part of the user interaction, the back-end part of the game data saving function needs to be added. In the user chat interface, users can post their own comments and comment on others' comments...
 
 ### Language & Tools
-Front-end: HTML5 CSS3 Bootstrap JavaScript jquery Ajax 
-Bak-end: NodeJS Express MySQL
+* Front-end: HTML5 CSS3 Bootstrap JavaScript jquery Ajax 
+* Back-end: NodeJS Express MySQL
 
 
 ## Getting Started

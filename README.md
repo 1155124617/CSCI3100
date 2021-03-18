@@ -40,10 +40,12 @@ git clone https://github.com/1155124617/CSCI3100.git
 
 File Tree:
 
+'''
 filetree CSCI3100
 |── GroupA5 Project Initial Design Report.docx
 |── 3100_proj.zip
 └── README.md
+'''
 
 Please unzip the .zip file 3100_proj.zip
 ```sh

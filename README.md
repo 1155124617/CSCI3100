@@ -21,7 +21,7 @@ Make sure that you have Google Chrome, MySQL, and NodeJS installed in your envir
 
 * NodeJS Download: https://nodejs.org/zh-cn/download/
 * MySQL Download: https://www.mysql.com/cn/downloads/
-* MySQL Configuration:
+* MySQL Configuration (for testing, please change to your preferance):
   * host: localhost
   * user: root
   * password: yy990525
@@ -42,27 +42,33 @@ git clone https://github.com/1155124617/CSCI3100.git
 filetree CSCI3100 
 ├── GroupA5 Project Initial Design Report.docx
 ├── 3100_proj.zip
+├── main_page.zip
 └── README.md
 
 ```
 
-Please unzip the .zip file 3100_proj.zip
+Please unzip the file 3100_proj.zip:
 ```sh
 unzip 3100_proj.zip
 ```
-
+After that, please unzip the file main_page.zip and put the unzipped directory main_page into the directory 3100_proj:
+```sh
+unzip main_page.zip
+mv main_page ./3100_proj
+```
 ```
 filetree 3100_proj
 ├── sign_in
 ├── sign_up
 ├── admin
 ├── server.js
-├── main_page
 ├── node_modules
 ├── package-lock.json
 └── package.json
 
 ```
+
+
 
 
 ### User Reg & Login System

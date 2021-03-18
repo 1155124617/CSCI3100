@@ -38,8 +38,6 @@ Please first clone the repo
 git clone https://github.com/1155124617/CSCI3100.git
 ```
 
-File Tree:
-
 ```
 filetree CSCI3100 
 ├── GroupA5 Project Initial Design Report.docx

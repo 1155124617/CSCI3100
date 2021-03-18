@@ -18,6 +18,16 @@ Bak-end: NodeJS Express MySQL
 
 Make sure that you have Google Chrome, MySQL, and NodeJS installed in your environment. In the test phase, we will use the MacOS Big Sur 11.1, Google Chrome V89.0.4389.90, NodeJS V13.9.0 and MySQL V8.0.21 as the testing environment. Please refer to the following steps to configure your environment.
 
+* NodeJS Download: https://nodejs.org/zh-cn/download/
+* MySQL Download: https://www.mysql.com/cn/downloads/
+   * MySQL Configuration:
+      *host: localhost
+      *user: root
+      *password: yy990525
+      *database: CSCI3100
+      
+   * Database Table Schema:
+      *
 
 
 ## System Intro & Demo

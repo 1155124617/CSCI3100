@@ -29,6 +29,7 @@ Make sure that you have Google Chrome, MySQL, and NodeJS installed in your envir
 * Database Table Schema:
   * user(username varchar(20) not null, password varchar(20) not null, primary key(username));
   * admin(username varchar(20) not null, password varchar(20) not null, primary key(username));
+  * chat(id int auto_increment, pid int not null, username varchar(20) not null, comment varchar(300) not null, subject varchar(20) not null, time varchar(50) not null, primary key(id)); 
 
 
 ## System Intro & Demo

@@ -36,7 +36,7 @@ Make sure that you have Google Chrome, MySQL, and NodeJS installed in your envir
 Please first clone the repo
 
 ```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+git clone https://github.com/1155124617/CSCI3100.git
 ```
 There are mainly .. directories:
 

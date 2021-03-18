@@ -7,6 +7,7 @@ DevTour is a simple web application, aiming to build a platform for students, es
 ## Done
 
 We have used front-end interaction and storage of user data. The user can successfully register, log in and log out through the login system, and the administrator can log in and modify the user account information and add new administrator account through the administrator login interface. After logging in, the user enters the main interface. The main interface includes the game interface and the comment interface.
+
 In the game interface, we have realized the operation logic of the game, mainly completed the front-end part of the user interaction, the back-end part of the game data saving function needs to be added. In the user chat interface, users can post their own comments and comment on others' comments...
 
 ### Language & Tools
@@ -32,7 +33,24 @@ Make sure that you have Google Chrome, MySQL, and NodeJS installed in your envir
 
 ## System Intro & Demo
 
+Please download the .zip file from this github and unzip it. There are mainly .. directories:
+
+- [上手指南](#上手指南)
+  - [开发前的配置要求](#开发前的配置要求)
+  - [安装步骤](#安装步骤)
+- [文件目录说明](#文件目录说明)
+- [开发的架构](#开发的架构)
+- [部署](#部署)
+- [使用到的框架](#使用到的框架)
+- [贡献者](#贡献者)
+  - [如何参与开源项目](#如何参与开源项目)
+- [版本控制](#版本控制)
+- [作者](#作者)
+- [鸣谢](#鸣谢)
+
 ### User Reg & Login System
+
+
 
 ### Administrator System
 

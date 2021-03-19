@@ -8,7 +8,7 @@ DevTour is a simple web application, aiming to build a platform for students, es
 
 We have used front-end interaction and storage of user data. The user can successfully register, log in and log out through the login system, and the administrator can log in and modify the user account information and add new administrator account through the administrator login interface. After logging in, the user enters the main interface. The main interface includes the game interface and the comment interface.
 
-In the game interface, we have realized the operation logic of the game, mainly completed the front-end part of the user interaction, the back-end part of the game data saving function needs to be added. In the user chat interface, users can post their own comments and comment on others' comments...
+In the game interface, we have realized the operation logic of the game, mainly completed the front-end part of the user interaction, the back-end part of the game data saving function needs to be added. In the user chat interface, users can post their own comments and comment on others' comments.
 
 ### Language & Tools
 * Front-end: HTML5 CSS3 Bootstrap JavaScript jquery Ajax 
@@ -59,6 +59,7 @@ mv main_page ./3100_proj
 ```
 ![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/2.png)
 ![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/3.png)
+<img width="150" height="150" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/3.png"/>
 
 ```
 filetree 3100_proj

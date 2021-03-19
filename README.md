@@ -59,7 +59,6 @@ mv main_page ./3100_proj
 ```
 ![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/2.png)
 ![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/3.png)
-<img width="150" height="150" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/3.png"/>
 
 ```
 filetree 3100_proj
@@ -74,6 +73,7 @@ filetree 3100_proj
 
 ```
 ![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/4.png)
+<div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/4.png"/></div>
 
 Please configure the database as shown below：
 ![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/5.png)

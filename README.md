@@ -89,7 +89,7 @@ Please have fun with our web application! :)
 
 First the user should sign up to login. The URL of the sign-up form is localhost:8081/sign_in/index.html. You shall input one distinct username and your password for this account to complete the sign-up procedure. After you successfully sign up, the page will be redirected to the sign-in page. Then you can input your account information to sign in. If success, you will go into the main page of the DevTour.
 
-1. At localhost:8081/sign_in/index.html, you can enter your username and password to log in. The username and the password you entered must be 5-16 symbols(letter or number). If you enter invalid username or password, there will be error messages to let you enter again:
+1. At localhost:8081/sign_in/index.html, you can enter your username and password to log in. The username and the password you entered must be 5-16 symbols (letter or number). If you enter invalid username or password, there will be error messages to let you enter again:
 
 <div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/1.png"/></div>
 
@@ -122,6 +122,37 @@ First the user should sign up to login. The URL of the sign-up form is localhost
 <div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/8.png"/></div>
 
 ### Administrator System
+
+In our administrator system, there will be an initial administrator account. The administrator can create new administrator account, create, update and delete user account. In the future, there will be more functions for administrator.
+
+1. There is a button named "Administrator login" in the main page localhost:8081/sign_in/index.html. You can click it to enter the login page for administrator
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/admin/1.png"/></div>
+
+2. The rules for admin account is the same as user aaccount. if you enter the admin account incorrectly, there will be an alert:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/admin/2.png"/></div>
+
+3. After login successfully, there will also be an alert:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/admin/3.png"/></div>
+
+4. After login successfully, you can enter the main page for administrator to manage accounts:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/admin/4.png"/></div>
+
+5. You can choose different functions:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/admin/5.png"/></div>
+
+6. For example, if you want to update user account, you can enter the informations according to the form. If it's a valid operation, there will be an alert:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/admin/6.png"/></div>
+
+7. As the following shows, the account has been updated:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/admin/7.png"/></div>
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/admin/8.png"/></div>
 
 ### Chat Board System
 

@@ -234,5 +234,5 @@ Chat Board can be reached from the main page. It requires the user to first logi
 * https://www.jq22.com/jquery-info2490
 * http://builtbywill.com/
 * https://www.jq22.com/demo/jquery-fanshu-150325215701/
-* CSCI 2720 T2, 19-20, Assignment 2, YU Yue.
+* Assignment 2, CSCI 2720 T2, 19-20, YU Yue.
 

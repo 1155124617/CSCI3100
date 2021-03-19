@@ -57,8 +57,8 @@ After that, please unzip the file main_page.zip and put the unzipped directory m
 unzip main_page.zip
 mv main_page ./3100_proj
 ```
-<div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/2.png"/></div>
-<div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/3.png"/></div>
+<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/2.png"/>
+<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/3.png"/>
 
 ```
 filetree 3100_proj
@@ -79,7 +79,7 @@ Please configure the database as shown below：
 <div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/5.png"/></div>
 
 After that, you can set up the NodeJS server as follows, make sure you have downloaded NodeJS in your computer:
-<div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/6.png"/></div>
+<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/6.png"/>
 
 Finally, you can open Chrome and enter:
 ```sh

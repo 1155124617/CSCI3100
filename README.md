@@ -79,6 +79,7 @@ Please configure the database as shown below：
 <img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/5.png"/>
 
 After that, you can set up the NodeJS server as follows, make sure you have downloaded NodeJS in your computer:
+
 <img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/6.png"/>
 
 Finally, you can open Chrome and enter:

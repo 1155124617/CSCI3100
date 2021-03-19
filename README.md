@@ -122,4 +122,6 @@ Chat Board can be reached from the main page. It requires the user to first logi
 
 ## Reference
 https://www.bootstrapdash.com/product/skydash-admin-template/
+https://colorlib.com/wp/template/login-form-v1/
+https://colorlib.com/wp/template/login-form-v8/
 

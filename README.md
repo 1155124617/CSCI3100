@@ -33,8 +33,7 @@ Make sure that you have Google Chrome, MySQL, and NodeJS installed in your envir
 
 
 ## System Intro & Demo
-1. 
-Please first clone the repo
+1. Please first clone the repo
 ```sh
 git clone https://github.com/1155124617/CSCI3100.git
 ```
@@ -46,10 +45,13 @@ filetree CSCI3100
 ├── main_page.zip
 └── README.md
 ```
-Please unzip the file 3100_proj.zip:
+2. Please unzip the file 3100_proj.zip:
 ```sh
 unzip 3100_proj.zip
 ```
+
+The file tree is as follows:
+
 <img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/1.png"/>
 
 ```
@@ -66,26 +68,28 @@ filetree 3100_proj
 ```
 <div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/2.png"/></div>
 
-Please configure the database as shown below：
+3. Please configure the database as shown below：
 
 <img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/3.png"/>
 
-After that, you can set up the NodeJS server as follows, make sure you have downloaded NodeJS in your computer:
+4. After that, you can set up the NodeJS server as follows, make sure you have downloaded NodeJS in your computer:
 
 <img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/4.png"/>
 
-Finally, you can open Chrome and enter:
+5. Finally, you can open Chrome and enter:
 ```sh
 localhost:8081/sign_in/index.html
 ```
 
 Please have fun with our web application! :)
 
-
+##Subsystem Demo
 
 ### User Reg & Login System
 
-First the user should sign up to login. The URL of the sign-up form is http://domain/sign_up/index.html. You shall input one distinct username and your password for this account to complete the sign-up procedure. After you successfully sign up, the page will be redirected to the sign-in page. Then you can input your account information to sign in. If success, you will go into the main page of the DevTour.
+First the user should sign up to login. The URL of the sign-up form is localhost:8081/sign_in/index.html. You shall input one distinct username and your password for this account to complete the sign-up procedure. After you successfully sign up, the page will be redirected to the sign-in page. Then you can input your account information to sign in. If success, you will go into the main page of the DevTour.
+
+
 
 ### Administrator System
 

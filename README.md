@@ -38,7 +38,7 @@ Please first clone the repo
 ```sh
 git clone https://github.com/1155124617/CSCI3100.git
 ```
-![image](https://github.com/1155124617/CSCI3100/demo_images/1.png)
+![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/1.png)
 ```
 filetree CSCI3100 
 ├── GroupA5 Project Initial Design Report.docx

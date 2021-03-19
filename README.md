@@ -31,7 +31,25 @@ Make sure that you have Google Chrome, MySQL, and NodeJS installed in your envir
   * user(username varchar(20) not null, password varchar(20) not null, primary key(username));
   * admin(username varchar(20) not null, password varchar(20) not null, primary key(username));
   * chat(id int auto_increment, pid int not null, username varchar(20) not null, comment varchar(300) not null, subject varchar(20) not null, time varchar(50) not null, primary key(id)); 
-
+* you may need to install some modules:
+```sh
+npm install express
+```
+```sh
+npm install body-parser
+```
+```sh
+npm install marked
+```
+```sh
+npm install mysql
+```
+```sh
+npm install fsevents
+```
+```sh
+npm install events
+```
 
 ## System Intro & Demo
 1. Please first clone the repo

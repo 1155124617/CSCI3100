@@ -101,7 +101,25 @@ First the user should sign up to login. The URL of the sign-up form is localhost
 
 <div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/3.png"/></div>
 
-4. 
+4. You can click "Create your account" and enter the sign up page. If your username entered is not valid, there will also be error message like above:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/4.png"/></div>
+
+5. After entering a valid username and password, sign up successfully:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/5.png"/></div>
+
+6. Then you can log in successfully:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/6.png"/></div>
+
+7. You will enter to our main page. You can click the logout button on the top left corner:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/7.png"/></div>
+
+8. After loging out, if you click return button of the web browser, the system will ask you to log in first. It's very safe:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/8.png"/></div>
 
 ### Administrator System
 

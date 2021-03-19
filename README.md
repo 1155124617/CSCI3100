@@ -87,15 +87,21 @@ filetree 3100_proj
 ```
 <div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/2.png"/></div>
 
-3. Please configure the database as shown below：
+3. Please copy the directory demo_images under CSCI3100 to ./3100_proj/main_page/pages/documentation if you want to show README.md in the web page:
+
+```sh
+cp -r ./demo_images ./3100_proj/main_page/pages/documentation
+```
+
+4. Please configure the database as shown below：
 
 <img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/3.png"/>
 
-4. After that, you can set up the NodeJS server as follows, make sure you have downloaded NodeJS in your computer:
+5. After that, you can set up the NodeJS server as follows, make sure you have downloaded NodeJS in your computer:
 
 <img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/4.png"/>
 
-5. Finally, you can open Chrome and enter:
+6. Finally, you can open Chrome and enter:
 ```sh
 localhost:8081/sign_in/index.html
 ```

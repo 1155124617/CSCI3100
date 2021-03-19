@@ -39,6 +39,7 @@ Please first clone the repo
 git clone https://github.com/1155124617/CSCI3100.git
 ```
 
+The file tree of the whole directory:
 ```
 filetree CSCI3100 
 ├── GroupA5 Project Initial Design Report.docx
@@ -57,6 +58,7 @@ After that, please unzip the file main_page.zip and put the unzipped directory m
 unzip main_page.zip
 mv main_page ./3100_proj
 ```
+Then the file tree is like this:
 ```
 filetree 3100_proj
 ├── sign_in
@@ -101,4 +103,5 @@ filetree 3100_proj
 * **YU Yue** 1155124490
 * **DING Baizeng** 1155124617
 
+Reference
 

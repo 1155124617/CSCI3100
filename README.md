@@ -102,7 +102,7 @@ First the user should sign up to login. The URL of the sign-up form is http://do
 Chat Board can be reached from the main page. It requires the user to first login. You could add a new comment to the chat board. You also are able to reply others' comments by jusst clicking the "Reply" button. Once you add or reply some comments, the page would be re-rendered. Your comment would be sent the back-end server which stores your comment information to the database. The comment needs to input your name, subject and comment content. In addition, you could also select a color for the comment header. 
 
 ### Game System
-
+In the latest version 1.0.1, we have finished the Game logic and the user interface optimization. For Game Logic, we have used a few events to demonstrate the process. To be more specific, we change the status of the user according to their choices and when the status of the user reach a threshold value, game is over (just for initial demo). We will make the structure of the game more complicated and reach the goal of saving and loading in the next phase. For the user interface, we designed it based on the booklet plugins and we tried to put the game question in the right side page of the book and the status is displayed in the left hand side page. 
 
 
 ## Release History
@@ -115,15 +115,22 @@ Chat Board can be reached from the main page. It requires the user to first logi
     * CHANGE: Basic Comment System
 * 1.0.0
     * CHANGE: Basic Game System
+* 1.0.1
+    * CHANGE: Fix the server bug, optimize the interface of Game System and update the documentation
 
 ## Authors
 
 * **YU Yue** 1155124490
 * **DING Baizeng** 1155124617
+* **CHANG Chirui** 1155124553
+* **LYU An** 1155124488
 
 ## Reference
 * https://www.bootstrapdash.com/product/skydash-admin-template/
 * https://colorlib.com/wp/template/login-form-v1/
 * https://colorlib.com/wp/template/login-form-v8/
+* https://www.jq22.com/jquery-info2490
+* http://builtbywill.com/
+* https://www.jq22.com/demo/jquery-fanshu-150325215701/
 
 

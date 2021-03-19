@@ -34,20 +34,10 @@ Make sure that you have Google Chrome, MySQL, and NodeJS installed in your envir
 * you may need to install some modules:
 ```sh
 npm install express
-```
-```sh
 npm install body-parser
-```
-```sh
 npm install marked
-```
-```sh
 npm install mysql
-```
-```sh
 npm install fsevents
-```
-```sh
 npm install events
 ```
 

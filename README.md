@@ -50,7 +50,7 @@ Please unzip the file 3100_proj.zip:
 ```sh
 unzip 3100_proj.zip
 ```
-<div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/1.png"/></div>
+<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/1.png"/>
 
 After that, please unzip the file main_page.zip and put the unzipped directory main_page into the directory 3100_proj:
 ```sh
@@ -76,7 +76,7 @@ filetree 3100_proj
 
 Please configure the database as shown below：
 
-<div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/5.png"/></div>
+<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/5.png"/>
 
 After that, you can set up the NodeJS server as follows, make sure you have downloaded NodeJS in your computer:
 <img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/6.png"/>

@@ -89,17 +89,19 @@ Please have fun with our web application! :)
 
 First the user should sign up to login. The URL of the sign-up form is localhost:8081/sign_in/index.html. You shall input one distinct username and your password for this account to complete the sign-up procedure. After you successfully sign up, the page will be redirected to the sign-in page. Then you can input your account information to sign in. If success, you will go into the main page of the DevTour.
 
-* At localhost:8081/sign_in/index.html, you can enter your username and password to log in. The username and the password you entered must be 5-16 symbols(letter or number). If you enter invalid username or password, there will be error messages to let you enter again:
+1. At localhost:8081/sign_in/index.html, you can enter your username and password to log in. The username and the password you entered must be 5-16 symbols(letter or number). If you enter invalid username or password, there will be error messages to let you enter again:
 
 <div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/1.png"/></div>
 
-* If the username or password you enter is empty, there will also be error message:
+2. If the username or password you enter is empty, there will also be error message:
 
 <div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/2.png"/></div>
 
-* If the username you enter doesn't exist or the password is wrong, there will be an alert message:
+3. If the username you enter doesn't exist or the password is wrong, there will be an alert message:
 
 <div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/reg_log/3.png"/></div>
+
+4. 
 
 ### Administrator System
 

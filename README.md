@@ -72,11 +72,11 @@ filetree 3100_proj
 └── package.json
 
 ```
-![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/4.png)
 <div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/4.png"/></div>
 
 Please configure the database as shown below：
-![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/5.png)
+
+<div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/5.png"/></div>
 
 After that, you can set up the NodeJS server as follows, make sure you have downloaded NodeJS in your computer:
 ![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/6.png)

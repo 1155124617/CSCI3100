@@ -50,15 +50,7 @@ Please unzip the file 3100_proj.zip:
 ```sh
 unzip 3100_proj.zip
 ```
-<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/1.png"/>
-
-After that, please unzip the file main_page.zip and put the unzipped directory main_page into the directory 3100_proj:
-```sh
-unzip main_page.zip
-mv main_page ./3100_proj
-```
-<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/2.png"/>
-<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/3.png"/>
+<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/1.png"/>
 
 ```
 filetree 3100_proj
@@ -72,15 +64,15 @@ filetree 3100_proj
 └── package.json
 
 ```
-<div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/4.png"/></div>
+<div align="center"><img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/2.png"/></div>
 
 Please configure the database as shown below：
 
-<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/5.png"/>
+<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/3.png"/>
 
 After that, you can set up the NodeJS server as follows, make sure you have downloaded NodeJS in your computer:
 
-<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/6.png"/>
+<img width="50%" height="50%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/configuration/4.png"/>
 
 Finally, you can open Chrome and enter:
 ```sh

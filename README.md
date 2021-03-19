@@ -154,12 +154,32 @@ In our administrator system, there will be an initial administrator account. The
 <div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/admin/7.png"/></div>
 <div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/admin/8.png"/></div>
 
+### Game System
+In the latest version 1.0.1, we have finished the Game logic and the user interface optimization. For Game Logic, we have used a few events to demonstrate the process. To be more specific, we change the status of the user according to their choices and when the status of the user reach a threshold value, game is over (just for initial demo). We will make the structure of the game more complicated and reach the goal of saving and loading in the next phase. For the user interface, we designed it based on the booklet plugins and we tried to put the game question in the right side page of the book and the status is displayed in the left hand side page. 
+
+1. Users can click "DevTour" button on the left to enter the game page:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/game/1.png"/></div>
+
+2. There will be a series of questions and you can choose your answer. For example, let's say, we choose "agree" and the value of physical health will increase:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/game/2.png"/></div>
+
+3. Then the next question will show and you can choose your answer:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/game/3.png"/></div>
+
+4. Some choise will decreasing some health values, now your money is not enough:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/game/4.png"/></div>
+
+5. If some values are lower than the threshold, the game will over and it will restart again:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/game/5.png"/></div>
+
 ### Chat Board System
 
 Chat Board can be reached from the main page. It requires the user to first login. You could add a new comment to the chat board. You also are able to reply others' comments by jusst clicking the "Reply" button. Once you add or reply some comments, the page would be re-rendered. Your comment would be sent the back-end server which stores your comment information to the database. The comment needs to input your name, subject and comment content. In addition, you could also select a color for the comment header. 
-
-### Game System
-In the latest version 1.0.1, we have finished the Game logic and the user interface optimization. For Game Logic, we have used a few events to demonstrate the process. To be more specific, we change the status of the user according to their choices and when the status of the user reach a threshold value, game is over (just for initial demo). We will make the structure of the game more complicated and reach the goal of saving and loading in the next phase. For the user interface, we designed it based on the booklet plugins and we tried to put the game question in the right side page of the book and the status is displayed in the left hand side page. 
 
 
 ## Release History
@@ -189,5 +209,5 @@ In the latest version 1.0.1, we have finished the Game logic and the user interf
 * https://www.jq22.com/jquery-info2490
 * http://builtbywill.com/
 * https://www.jq22.com/demo/jquery-fanshu-150325215701/
-
+* CSCI 2720 T2, 19-20, Assignment 2, YU Yue.
 

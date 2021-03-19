@@ -33,12 +33,11 @@ Make sure that you have Google Chrome, MySQL, and NodeJS installed in your envir
 
 
 ## System Intro & Demo
-
+1. 
 Please first clone the repo
 ```sh
 git clone https://github.com/1155124617/CSCI3100.git
 ```
-![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/1.png)
 ```
 filetree CSCI3100 
 ├── GroupA5 Project Initial Design Report.docx
@@ -46,18 +45,21 @@ filetree CSCI3100
 ├── 3100_proj.zip
 ├── main_page.zip
 └── README.md
-
 ```
-
 Please unzip the file 3100_proj.zip:
 ```sh
 unzip 3100_proj.zip
 ```
+![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/1.png)
+
 After that, please unzip the file main_page.zip and put the unzipped directory main_page into the directory 3100_proj:
 ```sh
 unzip main_page.zip
 mv main_page ./3100_proj
 ```
+![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/2.png)
+![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/3.png)
+
 ```
 filetree 3100_proj
 ├── sign_in
@@ -70,7 +72,20 @@ filetree 3100_proj
 └── package.json
 
 ```
+![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/4.png)
 
+Please configure the database as shown below：
+![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/5.png)
+
+After that, you can set up the NodeJS server as follows, make sure you have downloaded NodeJS in your computer:
+![image](https://github.com/1155124617/CSCI3100/blob/master/demo_images/6.png)
+
+Finally, you can open Chrome and enter:
+```sh
+localhost:8081/sign_in/index.html
+```
+
+Please have fun with our web application! :)
 
 
 

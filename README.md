@@ -39,7 +39,6 @@ Please first clone the repo
 git clone https://github.com/1155124617/CSCI3100.git
 ```
 
-The file tree of the whole directory:
 ```
 filetree CSCI3100 
 ├── GroupA5 Project Initial Design Report.docx
@@ -58,7 +57,6 @@ After that, please unzip the file main_page.zip and put the unzipped directory m
 unzip main_page.zip
 mv main_page ./3100_proj
 ```
-Then the file tree is like this:
 ```
 filetree 3100_proj
 ├── sign_in
@@ -77,11 +75,13 @@ filetree 3100_proj
 
 ### User Reg & Login System
 
-
+First the user should sign up to login. The URL of the sign-up form is http://domain/sign_up/index.html. You shall input one distinct username and your password for this account to complete the sign-up procedure. After you successfully sign up, the page will be redirected to the sign-in page. Then you can input your account information to sign in. If success, you will go into the main page of the DevTour.
 
 ### Administrator System
 
 ### Chat Board System
+
+Chat Board can be reached from the main page. It requires the user to first login. You could add a new comment to the chat board. You also are able to reply others' comments by jusst clicking the "Reply" button. Once you add or reply some comments, the page would be re-rendered. Your comment would be sent the back-end server which stores your comment information to the database. The comment needs to input your name, subject and comment content. In addition, you could also select a color for the comment header. 
 
 ### Game System
 
@@ -103,5 +103,4 @@ filetree 3100_proj
 * **YU Yue** 1155124490
 * **DING Baizeng** 1155124617
 
-Reference
 

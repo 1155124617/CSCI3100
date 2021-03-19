@@ -42,6 +42,7 @@ git clone https://github.com/1155124617/CSCI3100.git
 ```
 filetree CSCI3100 
 ├── GroupA5 Project Initial Design Report.docx
+├── demo_images
 ├── 3100_proj.zip
 ├── main_page.zip
 └── README.md
@@ -103,4 +104,4 @@ Chat Board can be reached from the main page. It requires the user to first logi
 * **YU Yue** 1155124490
 * **DING Baizeng** 1155124617
 
-##Reference
+## Reference

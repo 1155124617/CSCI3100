@@ -181,6 +181,30 @@ In the latest version 1.0.1, we have finished the Game logic and the user interf
 
 Chat Board can be reached from the main page. It requires the user to first login. You could add a new comment to the chat board. You also are able to reply others' comments by jusst clicking the "Reply" button. Once you add or reply some comments, the page would be re-rendered. Your comment would be sent the back-end server which stores your comment information to the database. The comment needs to input your name, subject and comment content. In addition, you could also select a color for the comment header. 
 
+1. You can click "Chat Board" button on the left to enter the chat board system, the system will show the comments before:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/chatboard/1.png"/></div>
+
+2. You can post your idea through the form in the button:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/chatboard/2.png"/></div>
+
+3. For example, we post another comments and it will shown immediately:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/chatboard/3.png"/></div>
+
+4. We can also reply others' comments:
+
+<div align="center"><img width="80%" height="80%" src="https://github.com/1155124617/CSCI3100/blob/master/demo_images/chatboard/4.png"/></div>
+
+## Future Plan
+
+* game backend
+* update chat board system
+* add more admin operations
+* UI decoration
+ ...
+
 
 ## Release History
 

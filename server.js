@@ -141,11 +141,23 @@ app.post("/admin_user_c",function(req,res){
             console.log(err.message);
             return res.end("F");
         }
+
+    });
+    
+    var sql2="insert into savefile(UID, physical, mental, money, academic, round) values(?, 50, 50, 50, 50, 0);";
+    var sqlValue2=[req.body['username']];
+    
+    connection.query(sql2,sqlValue2,function(err){
+        if(err){
+            console.log(err.message);
+            return res.end("F");
+        }
         else if(!err)
         {
             return res.end("S");
         }
     });
+    
 });
 
 app.post("/admin_user_r",function(req,res){
@@ -196,12 +208,29 @@ app.post("/admin_user_d",function(req,res){
         }
         else if(!err)
         {
+            if(result.affectedRows != 1)
+                return res.end("F");
+        }
+    });
+    
+    var sql2="delete from savefile where UID=?;";
+    var sqlValue2=[req.body['username']];
+
+    connection.query(sql2,sqlValue2,function(err, result){
+        if(err){
+            console.log("error!");
+            console.log(err.message);
+            return res.end("E");
+        }
+        else if(!err)
+        {
             if(result.affectedRows == 1)
                 return res.end("S");
             else
                 return res.end("F");
         }
     });
+    
 });
 
 app.post("/admin_user_u",function(req,res){
@@ -226,12 +255,29 @@ app.post("/admin_user_u",function(req,res){
         }
         else if(!err)
         {
+            if(result.affectedRows != 1)
+                return res.end("F");
+        }
+    });
+    
+    var sql2="update savefile set UID=? where UID=?";
+    var sqlValue2=[req.body['n_username'], req.body['o_username']];
+
+    connection.query(sql2,sqlValue2,function(err, result){
+        if(err){
+            console.log("error!");
+            console.log(err.message);
+            return res.end("E");
+        }
+        else if(!err)
+        {
             if(result.affectedRows == 1)
                 return res.end("S");
             else
                 return res.end("F");
         }
     });
+    
 });
 
 app.post("/admin_admin_c",function(req,res){
@@ -355,9 +401,65 @@ app.post("/admin_chat_d",function(req,res){
     else if (req.body['board']='question')
         fs.writeFile("./main_page/comments3.txt", "", function(){console.log("success");});
     
+});
 
+app.post("/admin_save_r",function(req,res){
+
+    var connection=mysql.createConnection({
+        host:"localhost",
+        user:"root",
+        password:"yy990525",
+        database:"CSCI3100"
+    });
+
+    connection.connect();
+    
+    var sql="select * from savefile;";
+
+    connection.query(sql,function(err,result){
+        if(err){
+            console.log(err.message);
+            return res.end("F");
+        }
+        else if(!err)
+        {
+            res.send(result);
+            return res.end("S");
+        }
+    });
+});
+
+app.post("/admin_save_u",function(req,res){
+
+    var connection=mysql.createConnection({
+        host:"localhost",
+        user:"root",
+        password:"yy990525",
+        database:"CSCI3100"
+    });
+
+    connection.connect();
+    
+    var sql="update savefile set physical=?, mental=?, money=?, academic=?, round=? where UID=?";
+    var sqlValue=[req.body['physical'], req.body['mental'], req.body['money'], req.body['academic'],req.body['round'],req.body['UID']];
+
+    connection.query(sql,sqlValue,function(err, result){
+        if(err){
+            console.log("error!");
+            console.log(err.message);
+            return res.end("E");
+        }
+        else if(!err)
+        {
+            if(result.affectedRows == 1)
+                return res.end("S");
+            else
+                return res.end("F");
+        }
+    });
     
 });
+
 
 app.post("/main_page/index.html",function(req,res){
     res.header("Content-Type", "text/html;charset=utf-8");

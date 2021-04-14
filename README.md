@@ -40,6 +40,7 @@ filetree CSCI3100
 ├── package-lock.json
 ├── package.json
 ├── server.js
+├── app-debug.apk
 └── README.md
 ```
 2. Please unzip the following .zip files:
@@ -57,6 +58,8 @@ sign_up folder
 admin folder
 main_page folder
 server.js
+
+4. There is an .apk file named app_debug.apk which encapsulates this webpage application. You can download it and install it into your android smartphone!
 
 ## Main Release History
 

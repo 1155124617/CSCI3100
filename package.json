@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "events": "^3.3.0",
+    "express": "^4.17.1",
+    "forever": "^3.0.4",
+    "fs": "*",
+    "marked": "^2.0.1",
+    "mysql": "^2.18.1"
+  }
+}

@@ -472,6 +472,30 @@ app.post("/admin_save_u",function(req,res){
     
 });
 
+app.post("/admin_record_d",function(req,res){
+
+    var connection=mysql.createConnection({
+        host:"localhost",
+        user:"root",
+        password:"password",
+        database:"CSCI3100"
+    });
+
+    connection.connect();
+    var sql = "delete from record;";
+    
+    connection.query(sql,function(err){
+        if(err){
+            console.log(err.message);
+            return res.end("F");
+        }
+        else if(!err)
+        {
+            return res.end("S");
+        }
+    });
+    
+});
 
 app.post("/main_page/index.html",function(req,res){
     res.header("Content-Type", "text/html;charset=utf-8");

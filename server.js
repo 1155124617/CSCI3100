@@ -48,11 +48,23 @@ app.post("/reg",function(req,res){
             console.log(err.message);
             return res.end("F");
         }
+
+    });
+    
+    var sql2="insert into savefile(UID, physical, mental, money, academic, round) values(?, 50, 50, 50, 50, 0);";
+    var sqlValue2=[req.body['username']];
+    
+    connection.query(sql2,sqlValue2,function(err){
+        if(err){
+            console.log(err.message);
+            return res.end("F");
+        }
         else if(!err)
         {
             return res.end("S");
         }
     });
+    
 });
 
 app.post("/log",function(req,res){

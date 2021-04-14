@@ -32,8 +32,6 @@ git clone https://github.com/1155124617/CSCI3100.git
 ```
 filetree CSCI3100 
 ├── GroupA5 Project Initial Design Report.docx
-├── demo_images
-├── 3100_proj.zip
 ├── admin.zip
 ├── main_page.zip
 ├── node_modules.zip
@@ -41,6 +39,7 @@ filetree CSCI3100
 ├── sign_up.zip
 ├── package-lock.json
 ├── package.json
+├── server.js
 └── README.md
 ```
 2. Please unzip the following .zip files:
@@ -57,6 +56,7 @@ sign_in folder
 sign_up folder
 admin folder
 main_page folder
+server.js
 
 ## Main Release History
 

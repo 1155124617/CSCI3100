@@ -5,7 +5,7 @@ DevTour is a simple web application, aiming to build a platform for students, es
 
 ### webpage link: http://1.116.205.71:8081/sign_in/index.html
 
-### demo video link: https://youtu.be/kemoeCB2jWU
+### demo video link: https://www.youtube.com/watch?v=cm0ciGJ7NWs&t=29s
 
 ## Done
 
